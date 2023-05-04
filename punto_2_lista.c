@@ -39,13 +39,10 @@ void Mostrar1Tarea(Tarea tarea);
 void consultarEstadoTareas(Lista* listaTareasPendientes, Lista* listaTareasRealizadas);
 void EstadoDeTareas(Lista tareasPendientes, Lista tareasRealizadas);
 void BuscarTareaIDEnLasListas(Lista ListaTareas, Lista ListaTareasRealizadas, int ID); // Busca la tarea en ambas listas e informa el estado de la misma
-int BuscarTareaID(Lista listaTareas, int ID); //Busca tarea en una sola lista en espesifico.
+int BuscarTareaID(Lista listaTareas, int ID); //Busca tarea en una sola lista en especifico.
 void liberarMemoria(Lista * ListaTareas);
 
 int main(){
-    //int cantidadTareas;   
-    //cantidadTareas = CantTares();
-    // Desarrollo la interfas para que el usuaio sea quien decida si seguira ingresando tareas o no 
     int respuesta, i =0;
 
     Lista tareasPendientes = CrearLista(); 
